@@ -11,9 +11,10 @@
     <string name="estado">Estado</string>
     <string name="nombre">Nombre</string>
     <string name="categorias">CATEGORIAS</string>
-    <string name="menuItem1">Opción A</string>
-    <string name="menuItem2">Opción B</string>
-    <string name="menuItem3">Opción C</string>
+    <string name="insertarMenuItem">Insertar nuevo</string>
+    <string name="eliminarMenuItem">Eliminar</string>
+    <string name="versionMenuItem">Versión 1.0</string>
+    <string name="privacidadMenuItem">Política de privacidad</string>
     <string name="menuItem4">Buscar</string>
     <string name="streaming">Streaming</string>
     <string name="streamer">streamer</string>

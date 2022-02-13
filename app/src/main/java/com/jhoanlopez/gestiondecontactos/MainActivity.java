@@ -12,7 +12,6 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -134,15 +133,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mi_item1:
+            case R.id.mi_insertar:
                 Toast.makeText(this, "Opción A", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mi_item2:
+            case R.id.mi_eliminar:
                 Toast.makeText(this, "Opción B", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.mi_item3:
-                Toast.makeText(this, "Opción C", Toast.LENGTH_SHORT).show();
+            case R.id.mi_privacidad:
+                Intent intent = new Intent(this, PoliticaDePrivacidad.class);
+                startActivity(intent);
                 break;
             default:
                 return super.onOptionsItemSelected(item);

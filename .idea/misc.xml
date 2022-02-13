@@ -5,8 +5,9 @@
       <map>
         <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/drawable/ic_account_circle_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/layout/activity_categories.xml" value="0.375" />
-        <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/layout/activity_description.xml" value="0.165" />
+        <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/layout/activity_description.xml" value="0.25" />
         <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/layout/activity_politica_de_privacidad.xml" value="0.25" />
         <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/layout/list_element.xml" value="0.10764944275582573" />
         <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/menu/menu.xml" value="0.25" />
         <entry key="..\:/Users/jleon/AndroidStudioProjects/GestionDeContactos/app/src/main/res/menu/menu_overflow.xml" value="0.335" />

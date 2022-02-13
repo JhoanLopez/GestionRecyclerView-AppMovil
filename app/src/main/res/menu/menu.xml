@@ -4,17 +4,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/mi_item1"
-        android:title="@string/menuItem1" />
+        android:id="@+id/mi_insertar"
+        android:title="@string/insertarMenuItem" />
     <item
-        android:id="@+id/mi_item2"
-        android:title="@string/menuItem2" />
+        android:id="@+id/mi_eliminar"
+        android:title="@string/eliminarMenuItem" />
     <item
-        android:id="@+id/mi_item3"
-        android:title="@string/menuItem3" />
+        android:id="@+id/mi_privacidad"
+        android:title="@string/privacidadMenuItem" />
     <item
-        android:id="@+id/app_bar_search"
-        android:icon="@drawable/ic_search_black_24dp"
-        android:title="@string/menuItem4"
-        app:actionViewClass="android.widget.SearchView" />
+        android:id="@+id/mi_version"
+        android:checkable="false"
+        android:enabled="false"
+        android:title="@string/versionMenuItem" />
 </menu>

@@ -10,24 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GestionDeContactos">
         <activity
+            android:name=".PoliticaDePrivacidad"
+            android:exported="false"
+            android:label="Políticas"/>
+        <activity
             android:name=".Categories"
             android:exported="true"
-            android:label="">
+            android:label="Bienvenido">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".DescriptionActivity"
             android:exported="false"
-            android:label="@string/informacion"/> <!-- Así asigno el nombre que se mostrará en el actionBar de cada activity.-->
+            android:label="@string/informacion" /> <!-- Así asigno el nombre que se mostrará en el actionBar de cada activity. -->
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:label="@string/streaming"> <!-- Así asigno el nombre que se mostrará en el actionBar de cada activity.-->
+            android:label="@string/streaming"> <!-- Así asigno el nombre que se mostrará en el actionBar de cada activity. -->
         </activity>
     </application>
+
 </manifest>

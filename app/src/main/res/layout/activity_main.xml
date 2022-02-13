@@ -15,6 +15,7 @@
         android:layout_marginBottom="10dp"
         android:text="@string/playStationGamers"
         android:textAlignment="center"
+        android:textColor="@color/gray_dark"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
