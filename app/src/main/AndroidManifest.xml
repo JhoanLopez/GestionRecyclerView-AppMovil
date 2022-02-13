@@ -23,12 +23,11 @@
         <activity
             android:name=".DescriptionActivity"
             android:exported="false"
-            android:label="@string/informacion"/>
+            android:label="@string/informacion"/> <!-- Así asigno el nombre que se mostrará en el actionBar de cada activity.-->
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:label="@string/streaming">
+            android:label="@string/streaming"> <!-- Así asigno el nombre que se mostrará en el actionBar de cada activity.-->
         </activity>
-
     </application>
 </manifest>

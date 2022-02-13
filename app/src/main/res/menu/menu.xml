@@ -17,5 +17,4 @@
         android:icon="@drawable/ic_search_black_24dp"
         android:title="@string/menuItem4"
         app:actionViewClass="android.widget.SearchView" />
-
 </menu>
