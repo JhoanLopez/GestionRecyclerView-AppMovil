@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories">
+
+    <Button
+        android:id="@+id/but_playStation"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:drawableLeft="@drawable/playstation_logotype"
+        android:drawableRight="@drawable/playstation_logotype"
+        android:text="@string/playStatiion"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        style="?attr/materialButtonOutlinedStyle"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/but_xbox"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/but_xbox"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:drawableLeft="@drawable/logotipo_de_xbox"
+        android:drawableRight="@drawable/logotipo_de_xbox"
+        android:text="@string/xbox"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        style="?attr/materialButtonOutlinedStyle"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/but_pc"
+        app:layout_constraintEnd_toEndOf="@+id/but_playStation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/but_playStation"
+        app:layout_constraintTop_toBottomOf="@id/but_playStation" />
+
+    <Button
+        android:id="@+id/but_pc"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="276dp"
+        android:backgroundTint="@color/purple_200"
+        android:drawableLeft="@drawable/computer"
+        android:drawableRight="@drawable/computer"
+        android:text="@string/pc"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        style="?attr/materialButtonOutlinedStyle"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/but_xbox"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/but_xbox"
+        app:layout_constraintTop_toBottomOf="@id/but_xbox" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/categorias"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/but_playStation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
