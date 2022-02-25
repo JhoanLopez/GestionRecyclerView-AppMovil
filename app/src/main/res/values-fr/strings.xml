@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestion des contacts</string>
+    <string name="xboxGamers">XBOX Gamers</string>
+    <string name="pcGamers">PC Gamers</string>
+    <string name="playStationGamers">Play Station Gamers</string>
+    <string name="xbox">XBOX</string>
+    <string name="pc">PC</string>
+    <string name="playStatiion">Play Station</string>
+    <string name="informacion">Information</string>
+    <string name="ciudad">Pays</string>
+    <string name="estado">État</string>
+    <string name="nombre">Nom</string>
+    <string name="categorias">CATÉGORIES</string>
+    <string name="insertarMenuItem">Insérer nouveau</string>
+    <string name="eliminarMenuItem">Sortir</string>
+    <string name="versionMenuItem">Version 1.0</string>
+    <string name="privacidadMenuItem">Politique de confidentialité</string>
+    <string name="streaming">Diffusion</string>
+    <string name="streamer">Banderole</string>
+    <string name="bienvenido">Bienvenue</string>
+    <string name="salir">Sortir</string>
+    <string name="registrar">Chercher</string>
+    <string name="seleccionar">Sélectionner</string>
+    <string name="buscar">Banderole de recherche</string>
+    <string name="activo">Actif</string>
+    <string name="ausente">Absent</string>
+
+</resources>

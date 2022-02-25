@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GestionDeContactos">
         <activity
+            android:name=".BuscarStreamer"
+            android:exported="false" />
+        <activity
             android:name=".PoliticaDePrivacidad"
             android:exported="false"
-            android:label="Políticas"/>
+            android:label="Políticas" />
         <activity
             android:name=".Categories"
             android:exported="true"
-            android:label="Bienvenido">
+            android:label="@string/bienvenido">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

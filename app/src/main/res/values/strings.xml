@@ -1,21 +1,28 @@
 <resources>
-    <string name="app_name">GestionDeContactos</string>
+    <string name="app_name">Contact Management</string>
     <string name="xboxGamers">XBOX Gamers</string>
     <string name="pcGamers">PC Gamers</string>
     <string name="playStationGamers">Play Station Gamers</string>
     <string name="xbox">XBOX</string>
     <string name="pc">PC</string>
     <string name="playStatiion">Play Station</string>
-    <string name="informacion">Información</string>
-    <string name="ciudad">Ciudad</string>
-    <string name="estado">Estado</string>
-    <string name="nombre">Nombre</string>
-    <string name="categorias">CATEGORIAS</string>
-    <string name="insertarMenuItem">Insertar nuevo</string>
-    <string name="eliminarMenuItem">Eliminar</string>
-    <string name="versionMenuItem">Versión 1.0</string>
-    <string name="privacidadMenuItem">Política de privacidad</string>
-    <string name="menuItem4">Buscar</string>
+    <string name="informacion">Information</string>
+    <string name="ciudad">Country</string>
+    <string name="estado">Condition</string>
+    <string name="nombre">Name</string>
+    <string name="categorias">CATEGORIES</string>
+    <string name="insertarMenuItem">Insert new</string>
+    <string name="eliminarMenuItem">Get out</string>
+    <string name="versionMenuItem">Version 1.0</string>
+    <string name="privacidadMenuItem">Privacy Policy</string>
     <string name="streaming">Streaming</string>
     <string name="streamer">streamer</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="salir">Get Out</string>
+    <string name="registrar">Search</string>
+    <string name="seleccionar">Select</string>
+    <string name="buscar">Search streamer</string>
+    <string name="activo">Active</string>
+    <string name="ausente">Missing</string>
+
 </resources>

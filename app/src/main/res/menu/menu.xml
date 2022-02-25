@@ -4,10 +4,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/mi_insertar"
-        android:title="@string/insertarMenuItem" />
+        android:id="@+id/mi_buscar"
+        android:title="@string/buscar" />
     <item
-        android:id="@+id/mi_eliminar"
+        android:id="@+id/mi_salir"
         android:title="@string/eliminarMenuItem" />
     <item
         android:id="@+id/mi_privacidad"

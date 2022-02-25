@@ -10,13 +10,13 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class DescriptionActivity extends AppCompatActivity {
 
     TextView titleDescriptionTextView;
     TextView cityDescriptionTextView;
     TextView statusDescriptionTextView;
+    TextView userDescriptionTextView;
     ImageView imagenView;
 
     @Override
@@ -28,18 +28,19 @@ public class DescriptionActivity extends AppCompatActivity {
         titleDescriptionTextView = findViewById(R.id.titleDescriptionTextView);
         cityDescriptionTextView = findViewById(R.id.cityDescriptionTextView);
         statusDescriptionTextView = findViewById(R.id.statusDescriptionTextView);
+        userDescriptionTextView = findViewById(R.id.tv_descripcion);
         imagenView = findViewById(R.id.imageView);
 
         titleDescriptionTextView.setText(element.getNombre());
-
         cityDescriptionTextView.setText(element.getCiudad());
         cityDescriptionTextView.setTextColor(Color.GRAY);
-
         imagenView.setColorFilter(Color.parseColor(element.getColor()));
-
         statusDescriptionTextView.setText(element.getStatus());
         statusDescriptionTextView.setTextColor(Color.GRAY);
+        userDescriptionTextView.setText(element.getDescripcion());
+        userDescriptionTextView.setTextColor(Color.GRAY);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -48,19 +49,21 @@ public class DescriptionActivity extends AppCompatActivity {
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mi_insertar:
-                Toast.makeText(this, "Opción A", Toast.LENGTH_SHORT).show();
+            case R.id.mi_buscar:
+                Intent intentBuscar = new Intent(this, BuscarStreamer.class);
+                startActivity(intentBuscar);
                 break;
-            case R.id.mi_eliminar:
-                Toast.makeText(this, "Opción B", Toast.LENGTH_SHORT).show();
+            case R.id.mi_salir:
+                Intent intentSalir = new Intent(this, Categories.class);
+                startActivity(intentSalir);
                 break;
-
             case R.id.mi_privacidad:
-                Intent intent = new Intent(this, PoliticaDePrivacidad.class);
-                startActivity(intent);
+                Intent intentPrivacidad = new Intent(this, PoliticaDePrivacidad.class);
+                startActivity(intentPrivacidad);
                 break;
             default:
                 return super.onOptionsItemSelected(item);

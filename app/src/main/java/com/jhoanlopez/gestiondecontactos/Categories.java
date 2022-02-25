@@ -16,8 +16,6 @@ public class Categories extends AppCompatActivity {
     Button xbox;
     Button pc;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,8 +26,6 @@ public class Categories extends AppCompatActivity {
         playStation = findViewById(R.id.but_playStation);
         xbox = findViewById(R.id.but_xbox);
         pc = findViewById(R.id.but_pc);
-
-
 
         playStation.setOnClickListener(v -> {
                 intent.putExtra("1", "Play Station Gamers");
